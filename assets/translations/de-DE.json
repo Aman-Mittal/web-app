@@ -784,7 +784,9 @@
       "Resume Breach": "Verstoß fortsetzen",
       "Currency Conversion": "Währungsumrechnung",
       "Create Exchange Rate": "Wechselkurs erstellen",
-      "Create Transfer Fee": "Transfergebühr erstellen"
+      "Create Transfer Fee": "Transfergebühr erstellen",
+      "Requesting": "Wird angefordert",
+      "Delink": "Verknüpfung entfernen"
     },
     "catalogs": {
       "% Amount": "Menge",
@@ -824,6 +826,7 @@
       "Charge adjustment": "Gebührenanpassung",
       "Charge payment": "Gebührenzahlung",
       "Charge refund": "Rückerstattung der Gebühr",
+      "Charge-off": "Abladen",
       "Chargeback": "Rückbuchung",
       "Check Due Installments": "Fällige Raten prüfen",
       "Check loan repayment due": "Prüfen Sie, ob die Kreditrückzahlung fällig ist",
@@ -1140,8 +1143,10 @@
       "Breach Actions": "Verstoßaktionen",
       "Delinquency & Breach": "Verzug & Verstoß",
       "Interest": "Zinsen",
+      "Mark as Fraud": "Als Betrug markieren",
       "Multi-step form": "Multi-step form",
       "Loan product creation": "Loan product creation",
+      "Link to payment system": "Mit Zahlungssystem verknüpfen",
       "Near Breach Actions": "Beinahe-Verstoß-Aktionen",
       "About Us": "Über Uns",
       "Account Information": "Kontoinformationen",
@@ -1578,6 +1583,7 @@
       "Undo": "Rückgängig machen",
       "Undo Reset": "Zurücksetzen rückgängig machen",
       "Undo Transaction": "Transaktion rückgängig machen",
+      "Unmark as Fraud": "Betrugsmarkierung aufheben",
       "Upcoming Charges": "Kommende Anklagen",
       "Upload": "Hochladen",
       "Upload Client Image": "Laden Sie das Clientbild hoch",
@@ -1637,6 +1643,7 @@
       "Account Name": "Kontoname",
       "Account No": "Konto Nr.",
       "Account Number": "Accountnummer",
+      "Account to link": "Zu verknüpfendes Konto",
       "Account Number Preferences": "Kontonummerneinstellungen",
       "Account Type": "Konto Typ",
       "Account Usage": "Kontonutzung",
@@ -1829,9 +1836,12 @@
       "Charge Time Type": "Ladezeittyp",
       "Charge Type": "Gebührentyp",
       "Charge time type": "Ladezeittyp",
+      "Charge-Off Amount": "Abladen-Betrag",
+      "Charge-Off Date": "Abladen-Datum",
       "Charge-off reason": "Abschreibungsgrund",
       "ChargeOff Expense": "ChargeOff-Kosten",
       "ChargeOff Fraud Expense": "Betrugskosten abrechnen",
+      "Charged Off On": "Abgeladen am",
       "Charges": "Gebühren",
       "Checked Date": "Geprüftes Datum",
       "Checked To Date": "Bisher überprüft",
@@ -2856,6 +2866,7 @@
       "Restricted products": "Eingeschränkte Produkte",
       "Results": "Ergebnisse",
       "Retry": "Erneut versuchen",
+      "Reversal External Id": "Externe Storno-ID",
       "Reversed": "Umgedreht",
       "Revised Meeting Date": "Geänderter Sitzungstermin",
       "Role": "Rolle",
@@ -3245,7 +3256,11 @@
       "Cross Rate via": "Kreuzkurs (über {{ currency }})",
       "Administrator": "Administrator",
       "Provider": "Anbieter",
-      "Dispute Management": "Streitverwaltung"
+      "Dispute Management": "Streitverwaltung",
+      "Phone": "Telefon",
+      "Mail": "E-Mail",
+      "Link": "Verknüpfung",
+      "Audit Trail": "Prüfpfad"
     },
     "links": {
       "Community": "Gemeinschaft",
@@ -3263,6 +3278,8 @@
       "Working with Code": "Arbeiten mit Code"
     },
     "menus": {
+      "Mark as Fraud": "Als Betrug markieren",
+      "Unmark as Fraud": "Betrugsmarkierung aufheben",
       "Update Breach": "Verstoß aktualisieren",
       "Unassign Staff": "Personalzuweisung aufheben",
       "Accounting": "Buchhaltung",
@@ -3392,7 +3409,8 @@
       "Tasks": "Aufgaben",
       "Remittances": "Überweisungen",
       "Process Remittance": "Überweisung bearbeiten",
-      "Undo Write-off": "Abschreibung rückgängig machen"
+      "Undo Write-off": "Abschreibung rückgängig machen",
+      "Link to payment system": "Mit Zahlungssystem verknüpfen"
     },
     "placeholders": {
       "Add new server": "Neuen Server hinzufügen",
@@ -3410,10 +3428,12 @@
     "status": {
       "Active": "Aktiv",
       "Approved": "Genehmigt",
+      "Charged Off": "Abgeladen",
       "Closed": "Geschlossen",
       "Closed (obligations met)": "Geschlossen (Verpflichtungen erfüllt)",
       "Closed (rescheduled)": "Geschlossen (verschoben)",
       "Closed (written off)": "Geschlossen (abgeschrieben)",
+      "Fraud": "Betrug",
       "Overpaid": "Überbezahlt",
       "Pending": "Ausstehend",
       "Rejected": "Abgelehnt",
@@ -3440,11 +3460,15 @@
       "Are you sure you want resume the Delinquency Classification for Loan": "Sind Sie sicher, dass Sie die Delinquenzklassifizierung für das Darlehen fortsetzen möchten",
       "Are you sure you want": "Sind Sie sicher, dass Sie möchten",
       "Enabling delinquency resumes the delinquency evaluation and recalculates it as of the current business date": "Das Aktivieren des Verzugs setzt die Verzugsbewertung fort und berechnet sie zum aktuellen Geschäftsdatum neu",
+      "Fraud accounting consequence": "Wird dieses Darlehen später ausgebucht, wird das Kapital auf das Konto Charge-Off Fraud Expense statt Charge-Off Expense gebucht. Bis dahin ändert sich nichts.",
+      "Mark this loan as fraud": "Dieses Darlehen als Betrug markieren?",
       "Reset neutralizes overdue delinquency periods effective today": "Diese Aktion wird heute wirksam und neutralisiert alle überfälligen Verzugsperioden und hebt deren Verzugskennzeichen auf.",
       "Start new period splits the current period today": "Wenn aktiviert, wird die aktuelle Periode zum heutigen Datum geteilt und eine neue Periode beginnt ab heute.",
       "the Loan Reschedule": "die Umplanung des Darlehens",
       "Are you sure you want undo the transaction": "Sind Sie sicher, dass Sie die Transaktion rückgängig machen möchten",
       "Are you sure you want undo the transaction type": "Sind Sie sicher, dass Sie den Transaktionstyp rückgängig machen möchten",
+      "Unmark fraud accounting consequence": "Eine spätere Ausbuchung bucht das Kapital wieder auf das Konto Charge-Off Expense. Der Darlehensstatus und die Buchungen bleiben unverändert.",
+      "Unmark this loan as fraud": "Die Betrugsmarkierung von diesem Darlehen entfernen?",
       "with id": "mit ID",
       "Are you sure you want to activate": "Sind Sie sicher, dass Sie aktivieren möchten",
       "holiday": "Urlaub",
@@ -3458,7 +3482,8 @@
       "the productmix component with id": "die Productmix-Komponente mit der ID",
       "the Reschedule Loan": "das Darlehen umplanen",
       "the Transaction Type": "der Transaktionstyp",
-      "undo_account_transfer": "Möchten Sie diesen Kontotransfer wirklich rückgängig machen?"
+      "undo_account_transfer": "Möchten Sie diesen Kontotransfer wirklich rückgängig machen?",
+      "Are you sure you want to undo the charge-off": "Sind Sie sicher, dass Sie das Abladen rückgängig machen möchten?"
     },
     "text": {
       "Agriculture Loan": "Agrarkredit",
@@ -3755,6 +3780,7 @@
       "Effective Date To": "Datum des Inkrafttretens bis",
       "Elastic Search": "Elastische Suche",
       "Email": "E-Mail",
+      "Email linking is not currently available": "Die Verknüpfung per E-Mail ist derzeit nicht verfügbar.",
       "Email Service Configuration": "Konfiguration des E-Mail-Dienstes",
       "Employee represents loan officers": "Ein Mitarbeiter vertritt Kreditsachbearbeiter ohne Zugriff auf Systeme",
       "EnterAmount": "Betrag eingeben",
@@ -4116,6 +4142,8 @@
       "Two Factor Authentication": "Zwei-Faktor-Authentifizierung",
       "Two types of charges—fees and penalties": "Mifos® unterstützt zwei Arten von Gebühren – Gebühren und Strafen. Für Dienstleistungen werden Gebühren erhoben – zum Beispiel Mitgliedsbeiträge, Gebühren für die Auszahlung von Krediten, Gebühren für Abhebungen. Strafen werden erhoben, um Kunden davon abzuhalten, von den Bedingungen eines Produkts abzuweichen",
       "Two-factor authentication configuration": "Konfigurationseinstellungen für die Zwei-Faktor-Authentifizierung",
+      "TXN Loans": "Kredittransaktionen",
+      "TXN Savings": "Spartransaktionen",
       "Unable to load vendors. Please check your connection and try again.": "Anbieter konnten nicht geladen werden. Bitte überprüfen Sie Ihre Verbindung und versuchen Sie es erneut.",
       "Unassign Staff client": "Sind Sie sicher, dass Sie die Personalzuweisung für diesen Kunden aufheben möchten?",
       "Unassign role for client member": "Sind Sie sicher, dass Sie die Rollenzuweisung für das Kundenmitglied mit der ID aufheben möchten?",
@@ -4276,7 +4304,22 @@
       "View Exchange Rate": "Wechselkurs anzeigen",
       "Edit Exchange Rate": "Wechselkurs bearbeiten",
       "Currency Conversion": "Währungsumrechnung",
-      "Currency conversion failed. Please try again.": "Währungsumrechnung fehlgeschlagen. Bitte versuchen Sie es erneut."
+      "Currency conversion failed. Please try again.": "Währungsumrechnung fehlgeschlagen. Bitte versuchen Sie es erneut.",
+      "Add link": "Verknüpfung hinzufügen",
+      "Enter an 8 digit phone number": "Geben Sie eine 8-stellige Telefonnummer ein.",
+      "Enter a valid 8 digit phone number": "Geben Sie eine gültige 8-stellige Telefonnummer ein.",
+      "OTP must contain only numbers": "Das OTP darf nur Zahlen enthalten.",
+      "Linked phone number": "Verknüpfte Telefonnummer",
+      "Payment system account missing IBAN": "Dieses Sparkonto hat keine externe ID, die als IBAN des Zahlungssystems verwendet werden kann.",
+      "Payment system OTP sent": "OTP wurde angefordert und die Telefonnummer wurde verifiziert.",
+      "Payment system OTP request failed": "Die Telefonnummer konnte nicht angefordert oder verifiziert werden.",
+      "Payment system link successful": "Das Konto wurde erfolgreich mit dem Zahlungssystem verknüpft.",
+      "Payment system link failed": "Das Konto konnte nicht mit dem Zahlungssystem verknüpft werden.",
+      "Payment system links loading failed": "Verknüpfte Telefonnummern konnten nicht geladen werden.",
+      "Payment system delink OTP sent": "Ein neues OTP zum Entfernen der Zahlungssystem-Verknüpfung wurde angefordert.",
+      "Payment system delink OTP request failed": "Ein neues OTP zum Entfernen der Verknüpfung konnte nicht angefordert werden.",
+      "Payment system delink successful": "Die Zahlungssystem-Verknüpfung wurde erfolgreich entfernt.",
+      "Payment system delink failed": "Die Zahlungssystem-Verknüpfung konnte nicht entfernt werden."
     },
     "permissions": {
       "actions": {
@@ -4655,7 +4698,27 @@
         "statusUpdated": "Streitstatus auf {{ status }} aktualisiert"
       },
       "errors": {
-        "badRequest": "Ungültige Anfrage. Bitte überprüfen Sie die Einreichungs-ID."
+        "badRequest": "Ungültige Anfrage. Bitte überprüfen Sie die Einreichungs-ID.",
+        "unauthorized": "Nicht autorisiert",
+        "forbidden": "Zugriff verweigert",
+        "serviceUnavailable": "Dienst nicht verfügbar",
+        "unexpected": "Ein unerwarteter Fehler ist aufgetreten",
+        "invalidDateRange": "Startdatum muss vor dem Enddatum liegen"
+      },
+      "auditTrail": {
+        "title": "Prüfpfad",
+        "totalEntries": "Einträge",
+        "filterTitle": "Nach Datumsbereich filtern",
+        "startDate": "Startdatum",
+        "endDate": "Enddatum",
+        "apply": "Anwenden",
+        "clear": "Löschen",
+        "noEntries": "Keine Prüfeinträge gefunden.",
+        "performedBy": "Durchgeführt von",
+        "createdAt": "Datum und Uhrzeit",
+        "duration": "Dauer",
+        "requestId": "Anforderungs-ID",
+        "invalidDateRange": "Startdatum muss vor dem Enddatum liegen"
       }
     }
   },

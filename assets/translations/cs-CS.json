@@ -783,7 +783,9 @@
       "Resume Breach": "Obnovení porušení",
       "Currency Conversion": "Převod měny",
       "Create Exchange Rate": "Vytvořit směnný kurz",
-      "Create Transfer Fee": "Vytvořit poplatek za převod"
+      "Create Transfer Fee": "Vytvořit poplatek za převod",
+      "Requesting": "Probíhá požadavek",
+      "Delink": "Odpojit"
     },
     "catalogs": {
       "% Amount": "% Amount",
@@ -823,6 +825,7 @@
       "Charge adjustment": "Úprava náboje",
       "Charge payment": "Úhrada poplatku",
       "Charge refund": "Vrácení poplatku",
+      "Charge-off": "Odpis pohledávky",
       "Chargeback": "Zpětné zúčtování",
       "Check Due Installments": "Zkontrolovat splatné splátky",
       "Check loan repayment due": "Zkontrolujte splatnost půjčky",
@@ -1139,8 +1142,10 @@
       "Breach Actions": "Porušení Akce",
       "Delinquency & Breach": "Delikvence a porušení",
       "Interest": "Úrok",
+      "Mark as Fraud": "Označit jako podvod",
       "Multi-step form": "Vícekrokový formulář",
       "Loan product creation": "Vytvoření úvěrového produktu",
+      "Link to payment system": "Propojit s platebním systémem",
       "Near Breach Actions": "Blížící se porušení Akce",
       "About Us": "O Nás",
       "Account Information": "Informace o účtu",
@@ -1576,6 +1581,7 @@
       "Undo": "vrátit",
       "Undo Reset": "Vrátit reset",
       "Undo Transaction": "Vrátit zpět transakci",
+      "Unmark as Fraud": "Zrušit označení podvodu",
       "Upcoming Charges": "Nadcházející poplatky",
       "Upload": "nahrát",
       "Upload Client Image": "Nahrajte obrázek klienta",
@@ -1635,6 +1641,7 @@
       "Account Name": "Jméno účtu",
       "Account No": "Číslo účtu.",
       "Account Number": "Číslo účtu",
+      "Account to link": "Účet k propojení",
       "Account Number Preferences": "Předvolby čísla účtu",
       "Account Overview": "Přehled účtu",
       "Account Type": "Typ účtu",
@@ -1827,9 +1834,12 @@
       "Charge Time Type": "Typ doby nabíjení",
       "Charge Type": "Typ nabíjení",
       "Charge time type": "Typ doby nabíjení",
+      "Charge-Off Amount": "Částka odpisu",
+      "Charge-Off Date": "Datum odpisu",
       "Charge-off reason": "Důvod vyúčtování",
       "ChargeOff Expense": "Náklady na odpis",
       "ChargeOff Fraud Expense": "Poplatek za podvody",
+      "Charged Off On": "Odepsáno dne",
       "Charges": "Poplatky",
       "Checked Date": "Datum kontroly",
       "Checked To Date": "Zkontrolováno k dnešnímu dni",
@@ -2854,6 +2864,7 @@
       "Restricted products": "Omezené produkty",
       "Results": "Výsledky",
       "Retry": "Opakovat",
+      "Reversal External Id": "Externí ID storna",
       "Reversed": "Obrácené",
       "Revised Meeting Date": "Upravený termín schůzky",
       "Role": "Role",
@@ -3243,7 +3254,11 @@
       "Cross Rate via": "Křížový kurz (přes {{ currency }})",
       "Administrator": "Administrátor",
       "Provider": "Poskytovatel",
-      "Dispute Management": "Správa sporů"
+      "Dispute Management": "Správa sporů",
+      "Phone": "Telefon",
+      "Mail": "E-mail",
+      "Link": "Propojení",
+      "Audit Trail": "Auditní stopa"
     },
     "links": {
       "Community": "Společenství",
@@ -3261,6 +3276,8 @@
       "Working with Code": "Práce s kódem"
     },
     "menus": {
+      "Mark as Fraud": "Označit jako podvod",
+      "Unmark as Fraud": "Zrušit označení podvodu",
       "Update Breach": "Aktualizovat porušení",
       "Unassign Staff": "Zrušit přidělení personálu",
       "Accounting": "Účetnictví",
@@ -3390,7 +3407,8 @@
       "Tasks": "Úkoly",
       "Remittances": "Remitence",
       "Process Remittance": "Zpracovat remitenci",
-      "Undo Write-off": "Zrušit odpis"
+      "Undo Write-off": "Zrušit odpis",
+      "Link to payment system": "Propojit s platebním systémem"
     },
     "placeholders": {
       "Add new server": "Přidat nový server",
@@ -3408,10 +3426,12 @@
     "status": {
       "Active": "Aktivní",
       "Approved": "Schválený",
+      "Charged Off": "Odepsáno",
       "Closed": "ZAVŘENO",
       "Closed (obligations met)": "Uzavřené (splněny povinnosti)",
       "Closed (rescheduled)": "Uzavřeno (přeplánováno)",
       "Closed (written off)": "Uzavřeno (odepsané)",
+      "Fraud": "Podvod",
       "Overpaid": "Přeplatek",
       "Pending": "čekající",
       "Rejected": "Odmítnuto",
@@ -3438,11 +3458,15 @@
       "Are you sure you want resume the Delinquency Classification for Loan": "Jste si jisti, že chcete pokračovat v klasifikaci delikvence pro půjčku",
       "Are you sure you want": "Jsi si jistý že chceš",
       "Enabling delinquency resumes the delinquency evaluation and recalculates it as of the current business date": "Povolení delikvence obnoví hodnocení delikvence a přepočítá je k aktuálnímu obchodnímu datu",
+      "Fraud accounting consequence": "Pokud bude tento úvěr později odepsán, jistina se zaúčtuje na účet Charge-Off Fraud Expense namísto Charge-Off Expense. Do té doby se nic nemění.",
+      "Mark this loan as fraud": "Označit tento úvěr jako podvod?",
       "Reset neutralizes overdue delinquency periods effective today": "Tato akce nabývá účinnosti dnes, neutralizuje všechna prošlá období delikvence a odstraní jejich příznaky delikvence.",
       "Start new period splits the current period today": "Pokud je povoleno, aktuální období se rozdělí k dnešnímu datu a nové období začne ode dneška.",
       "the Loan Reschedule": "Půjčka přeplánují",
       "Are you sure you want undo the transaction": "Jste si jisti, že chcete vrátit transakci",
       "Are you sure you want undo the transaction type": "Jste si jisti, že chcete vrátit typ transakce",
+      "Unmark fraud accounting consequence": "Pozdější odpis zaúčtuje jistinu opět na účet Charge-Off Expense. Stav úvěru a jeho transakce zůstávají beze změny.",
+      "Unmark this loan as fraud": "Odstranit označení podvodu z tohoto úvěru?",
       "with id": "s ID",
       "Are you sure you want to activate": "Jste si jisti, že chcete aktivovat",
       "holiday": "dovolená",
@@ -3456,7 +3480,8 @@
       "the productmix component with id": "komponenta productmix s id",
       "the Reschedule Loan": "přeplánovat půjčku",
       "the Transaction Type": "typ transakce",
-      "undo_account_transfer": "Opravdu chcete vrátit tento převod účtu?"
+      "undo_account_transfer": "Opravdu chcete vrátit tento převod účtu?",
+      "Are you sure you want to undo the charge-off": "Opravdu chcete zrušit odpis?"
     },
     "text": {
       "Agriculture Loan": "Zemědělský úvěr",
@@ -3754,6 +3779,7 @@
       "Effective Date To": "Datum účinnosti do",
       "Elastic Search": "Elastické vyhledávání",
       "Email": "E-mailem",
+      "Email linking is not currently available": "Propojení e-mailem není momentálně dostupné.",
       "Email Service Configuration": "Konfigurace e-mailové služby",
       "Employee represents loan officers": "Zaměstnanec představuje úvěrové úředníky bez přístupu k systémům",
       "EnterAmount": "Zadejte částku",
@@ -4115,6 +4141,8 @@
       "Two Factor Authentication": "Dvoufaktorová autentizace",
       "Two types of charges—fees and penalties": "Mifos podporuje dva typy poplatků – poplatky a sankce. Poplatky jsou účtovány za služby – například členské poplatky, poplatky za vyplacení půjčky, poplatky za výběr. Sankce jsou účtovány s cílem odradit klienty od odchýlení se od podmínek produktu",
       "Two-factor authentication configuration": "Nastavení konfigurace dvoufaktorové autentizace",
+      "TXN Loans": "Transakce půjček",
+      "TXN Savings": "Transakce úspor",
       "Unable to load vendors. Please check your connection and try again.": "Nepodařilo se načíst dodavatele. Zkontrolujte připojení a zkuste to znovu.",
       "Unassign Staff client": "Opravdu chcete zrušit přidělení personálu pro tohoto klienta?",
       "Unassign role for client member": "Jste si jisti, že chcete zrušit přiřazení role pro člena klienta s ID?",
@@ -4275,7 +4303,22 @@
       "View Exchange Rate": "Zobrazit směnný kurz",
       "Edit Exchange Rate": "Upravit směnný kurz",
       "Currency Conversion": "Převod měny",
-      "Currency conversion failed. Please try again.": "Převod měny se nezdařil. Zkuste to prosím znovu."
+      "Currency conversion failed. Please try again.": "Převod měny se nezdařil. Zkuste to prosím znovu.",
+      "Add link": "Přidat propojení",
+      "Enter an 8 digit phone number": "Zadejte 8místné telefonní číslo.",
+      "Enter a valid 8 digit phone number": "Zadejte platné 8místné telefonní číslo.",
+      "OTP must contain only numbers": "OTP smí obsahovat pouze číslice.",
+      "Linked phone number": "Propojené telefonní číslo",
+      "Payment system account missing IBAN": "Tento spořicí účet nemá externí ID, které lze použít jako IBAN platebního systému.",
+      "Payment system OTP sent": "OTP bylo vyžádáno a telefonní číslo ověřeno.",
+      "Payment system OTP request failed": "Nepodařilo se vyžádat nebo ověřit telefonní číslo.",
+      "Payment system link successful": "Účet byl úspěšně propojen s platebním systémem.",
+      "Payment system link failed": "Účet se nepodařilo propojit s platebním systémem.",
+      "Payment system links loading failed": "Nepodařilo se načíst propojená telefonní čísla.",
+      "Payment system delink OTP sent": "Bylo vyžádáno nové OTP pro odebrání propojení s platebním systémem.",
+      "Payment system delink OTP request failed": "Nepodařilo se vyžádat nové OTP pro odpojení.",
+      "Payment system delink successful": "Propojení s platebním systémem bylo úspěšně odebráno.",
+      "Payment system delink failed": "Propojení s platebním systémem se nepodařilo odebrat."
     },
     "permissions": {
       "actions": {
@@ -4655,7 +4698,27 @@
         "statusUpdated": "Stav sporu aktualizován na {{ status }}"
       },
       "errors": {
-        "badRequest": "Neplatný požadavek. Zkontrolujte ID záznamu podání."
+        "badRequest": "Neplatný požadavek. Zkontrolujte ID záznamu podání.",
+        "unauthorized": "Neautorizováno",
+        "forbidden": "Přístup odepřen",
+        "serviceUnavailable": "Služba není dostupná",
+        "unexpected": "Došlo k neočekávané chybě",
+        "invalidDateRange": "Datum začátku musí být před datem konce"
+      },
+      "auditTrail": {
+        "title": "Auditní stopa",
+        "totalEntries": "záznamy",
+        "filterTitle": "Filtrovat podle rozsahu dat",
+        "startDate": "Datum začátku",
+        "endDate": "Datum konce",
+        "apply": "Použít",
+        "clear": "Vymazat",
+        "noEntries": "Nebyly nalezeny žádné auditní záznamy.",
+        "performedBy": "Provedl",
+        "createdAt": "Datum a čas",
+        "duration": "Trvání",
+        "requestId": "ID požadavku",
+        "invalidDateRange": "Datum začátku musí být před datem konce"
       }
     }
   },
